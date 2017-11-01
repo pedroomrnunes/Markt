@@ -1,0 +1,16 @@
+.body{ background-color: white;}
+
+.title{ font-size: 20px; font-weight: bold; color: #f8f8f8 }
+
+.question{ font-size: 15px; font-weight: normal;   }
+
+.answer{ font-size: 12px; font-weight: italic;   padding-top: 7px; padding-left: 12px;   color: #444 }
+
+#faqs dt, #faqs dd { padding: 0 0 0 50px }
+#faqs dt { font-size:1.5em; color: #9d9d9d; cursor: pointer; height: 37px; line-height: 37px; margin: 0 0 15px 25px}
+#faqs dd { font-size: 1em; margin: 0 0 20px 25px; color: #444;}
+#faqs dt { background: url(http://www.designonslaught.com/files/2012/06/expand-icon.png) no-repeat left}
+#faqs .expanded { background: url(http://www.designonslaught.com/files/2012/06/expanded-icon.png) no-repeat left }
+
+.hidden {     display: none;  }
+.show {     display: block; }

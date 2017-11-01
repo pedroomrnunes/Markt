@@ -1,0 +1,190 @@
+body {
+    background: #e5e6e6;
+    background-size: 100% 100%;
+    color: #313534;
+    -ms-overflow-style: scrollbar;
+}
+/* 
+ *       Input
+ */
+ 
+ 
+.form-control {
+    padding: 0;
+    height: 37px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom-color: rgba(12, 12, 12, 0.12);
+    background: transparent;
+    color: #0c0c0c;
+    font-size: 16px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	border-radius: 0px;
+	padding: 0px;
+	}
+.form-control:focus{
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding: 4.5px 14px;
+    font-size: 16px;
+    line-height: 1.846153846;
+    color: #0c0c0c;
+    background-color: #ffffff;
+    background-image: none;
+    border: 2px solid #337ab7;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	border-left: none;
+    border-right: none;
+    border-top: none;
+	padding: 0px;
+}
+ 
+
+/*
+ *    Label
+ */
+.form-group .form-control:not(.static) ~ label, .form-group .form-control:not(.static) ~ .form-control-line {
+    -webkit-transition: 0.2s ease all;
+    -o-transition: 0.2s ease all;
+    transition: 0.2s ease all;
+}
+.form .form-group > label, .form-inline .form-group > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+ 
+/*
+.form-group .form-control ~ label {
+    top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    opacity: 0.5;
+}
+*/
+.floating-label .form-control ~ label {
+    top: 25px;
+    font-size: 16px;
+}
+
+/* 
+.form-group .form-control ~ label, .form-group .form-control ~ .form-control-line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    pointer-events: none;
+} */ 
+
+ 
+
+.form-group > label, .form-group .control-label {
+    font-size: 12px;
+    opacity: 0.5;
+    margin-bottom: 0;
+}
+
+label {
+    font-weight: 400;
+}
+
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group .form-control ~ label:after, .form-group .form-control ~ .form-control-line:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    height: 2px;
+    width: 10px;
+    visibility: hidden;
+    background-color: #0aa89e;
+    -webkit-transition: 0.2s ease all;
+    -o-transition: 0.2s ease all;
+    transition: 0.2s ease all;
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+/*
+ *    Form Group
+ *
+ */
+.form .form-group, .form-inline .form-group {
+    padding-top: 16px;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 19px;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* 
+ *     Card
+ */
+.card {
+    position: relative;
+    margin-bottom: 24px;
+    background-color: #ffffff;
+    color: #313534;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+}
+.card-body {
+    padding: 24px;
+    position: relative;
+}
+.card-body:before, .card-body:after {
+    content: " ";
+    display: table;
+}
+.form-group .form-control ~ label:after, .form-group .form-control ~ .form-control-line:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    height: 2px;
+    width: 10px;
+    visibility: hidden;
+    background-color: #0aa89e;
+    -webkit-transition: 0.2s ease all;
+    -o-transition: 0.2s ease all;
+    transition: 0.2s ease all;
+}
+
+
+
